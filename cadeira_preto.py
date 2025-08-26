@@ -1,0 +1,23 @@
+#O cabeçalho de um arquivo Python é como uma introdução, ele geralmente tem informações de quem escreveu o código, quando foi feito e uma descrição do que o arquivo faz. Já a docstring é uma forma de documentar funções ou classes específicas, a diferença
+#é que o arquivo possui o código executável e é a base do programa já docstring é uma parte do código que documenta funções ou classes específicas, mas não é executável por si só.
+######################################################################
+
+# formate o cabeçalho deste arquivo
+
+# implemente as funções abaixo e coloque as docstrings
+import re
+
+def limpa_texto(s: str) -> str:
+    """..."""
+    # TODO: converta s para minúsculo e remova pontuações como ,.;:!?'"()-_
+    ...
+
+def conta_vogais(s: str) -> int:
+    """....."""
+    # TODO: conte as vogais simples
+    ...
+
+def palindromo(s: str) -> bool:
+    """..."""
+    # TODO: normalizar (minúsculo, remover não alfanumérico) e comparar com o reverso
+    ...
